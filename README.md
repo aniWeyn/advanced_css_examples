@@ -1,1 +1,1 @@
-# advanced_css_examples
+# Examples of SASS variables and CSS variables
