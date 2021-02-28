@@ -6,6 +6,13 @@
     }
 }
 
+.container__buttons{
+    display: flex;
+    flex-direction: column;
+    padding-top:10px;
+    max-width: 600px;
+}
+
 .box{
     height: 80px;
     width: 80px;
