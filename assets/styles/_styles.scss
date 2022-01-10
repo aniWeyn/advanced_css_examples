@@ -1,3 +1,4 @@
+// EXAMPLE OF @INCLUDE
 .container{
     @include desktop{
         /* for layout always use CSS Grid!!!! */
@@ -19,16 +20,17 @@
     margin: 20px;
 }
 
+// EXAMPLE OF SASS VARIABLE
 .one{
     background-color: $pewterBlue;
 }
 
-
+// MAPING FROM _COLORS.CSS EXAMPLE 1
 .two{
     background-color: map-get($colors, darkJungleGreen);
 }
 
-
+// MAPING FROM _COLORS.CSS EXAMPLE 2
 .three{
     background-color: map-get($theme, accent);
 }
@@ -47,7 +49,7 @@
     }
 }
 
-
+// EXAMPLE OF FUNCTIONS
 .five{
     background-color: color(accent);
 }
@@ -62,6 +64,7 @@
     background-color: color(primary-dark);
 }
 
+// EXAMPLE OF CSS VARIABLES
 .eight{
     background-color: var(--purple);
 }
@@ -70,7 +73,7 @@
     background-color: var(--blackCoral);
 }
 
-
+// EXAMPLE OF CLIP-PATH
 .poet{
     background-image: url(../images/wislawa.jpg);
 	background-repeat: no-repeat;
